@@ -1,6 +1,6 @@
 # Rentabilidad y descuentos en ventas minoristas
 
-Caso de análisis exploratorio realizado a partir del trabajo final de Estadística Aplicada de un diplomado. El curso entregó un CSV de ventas y una consigna; desarrollé los ejercicios y añadí un análisis de márgenes, descuentos y recomendaciones. Esta versión presenta lo más útil para un puesto de analista de datos y permite verificar las cifras con el archivo incluido.
+Caso de análisis exploratorio realizado a partir del trabajo final de Estadística Aplicada de un diplomado. El curso entregó un CSV de ventas y una consigna; desarrollé los ejercicios y añadí un análisis de márgenes, descuentos y recomendaciones.
 
 ![Relación entre descuentos y ganancias, gráfico del notebook original](images/discount_vs_profit_original.png)
 
