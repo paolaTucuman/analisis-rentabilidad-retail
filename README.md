@@ -54,5 +54,5 @@ Sumé `Sales` y `Profit` por subcategoría y calculé el margen agregado como `s
 
 ## Mi contribución
 
-La consigna del curso pidió cargar el archivo, segmentar ventas, crear gráficos, calcular intervalos y comparar grupos. Resolví esas preguntas y añadí las secciones de rentabilidad y descuentos identificadas como “ANÁLISIS EXTRA” en el notebook. Para esta publicación preparé el script, comprobé nuevamente los agregados y resumí los hallazgos. La [copia del notebook académico](notebooks/trabajo_final_academico.ipynb) conserva la consigna y el trabajo; se retiraron salidas y el código de estudiante del encabezado.
+La consigna del curso pidió cargar el archivo, segmentar ventas, crear gráficos, calcular intervalos y comparar grupos. Resolví esas preguntas y añadí las secciones de rentabilidad y descuentos identificadas como “ANÁLISIS EXTRA” en el notebook. Para esta publicación preparé el script, comprobé nuevamente los agregados y resumí los hallazgos. La [copia del notebook académico](notebooks/trabajo_final_academico.ipynb) conserva la consigna y el trabajo; se retiró el código de estudiante del encabezado y se conservó la salida del gráfico principal. La celda del gráfico calcula su correlación antes de mostrarla para poder ejecutarse desde una sesión nueva.
 
