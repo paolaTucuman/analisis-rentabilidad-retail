@@ -2,7 +2,9 @@
 
 Caso de análisis exploratorio realizado a partir del trabajo final de Estadística Aplicada de un diplomado. El curso entregó un CSV de ventas y una consigna; desarrollé los ejercicios y añadí un análisis de márgenes, descuentos y recomendaciones. Esta versión presenta lo más útil para un puesto de analista de datos y permite verificar las cifras con el archivo incluido.
 
-![Ganancia neta por subcategoría](images/profit_by_subcategory.png)
+![Relación entre descuentos y ganancias, gráfico del notebook original](images/discount_vs_profit_original.png)
+
+*Gráfico de la sección “ANÁLISIS EXTRA” del notebook académico: cada punto representa una venta; la línea horizontal marca ganancia cero.*
 
 **Resultado principal:** cuatro subcategorías registraron pérdida neta. Los registros con descuentos mayores al 20% también sumaron pérdidas, una asociación descriptiva que no demuestra causalidad.
 
@@ -28,7 +30,8 @@ El script lee `data/RetailNuevo3.csv`, imprime los agregados y regenera `images/
 │   ├── README.md                     # origen, columnas y límites del CSV
 │   └── RetailNuevo3.csv
 ├── images/
-│   └── profit_by_subcategory.png
+│   ├── discount_vs_profit_original.png # figura del notebook académico
+│   └── profit_by_subcategory.png      # gráfico generado para este resumen
 └── notebooks/
     └── trabajo_final_academico.ipynb # copia curada del trabajo de clase
 ```
@@ -44,7 +47,7 @@ Sumé `Sales` y `Profit` por subcategoría y calculé el margen agregado como `s
 ## Resultados
 
 1. Las ventas suman **452.790,42** y la ganancia neta **54.704,30**, con un margen agregado de **12,08%**.
-2. Cuatro subcategorías tienen pérdida neta: **Tables** (−5.949,17), **Machines** (−5.416,28), **Bookcases** (−1.573,74) y **Supplies** (−1.086,95).
+2. Cuatro subcategorías tienen pérdida neta: **Tables** (−5.949,17), **Machines** (−5.416,28), **Bookcases** (−1.573,74) y **Supplies** (−1.086,95). El [gráfico de subcategorías](images/profit_by_subcategory.png) se generó para este resumen a partir del CSV.
 3. Los **1.733** registros con descuento de hasta 20% suman **84.922,09** de ganancia; los **267** con descuento superior a 20% suman **−30.217,79**.
 
 **Recomendación:** revisar descuentos y costos de las cuatro subcategorías deficitarias antes de cambiar promociones. El archivo no permite atribuir las pérdidas al descuento ni afirmar un impacto comercial real.
@@ -52,5 +55,4 @@ Sumé `Sales` y `Profit` por subcategoría y calculé el margen agregado como `s
 ## Mi contribución
 
 La consigna del curso pidió cargar el archivo, segmentar ventas, crear gráficos, calcular intervalos y comparar grupos. Resolví esas preguntas y añadí las secciones de rentabilidad y descuentos identificadas como “ANÁLISIS EXTRA” en el notebook. Para esta publicación preparé el script, comprobé nuevamente los agregados y resumí los hallazgos. La [copia del notebook académico](notebooks/trabajo_final_academico.ipynb) conserva la consigna y el trabajo; se retiraron salidas y el código de estudiante del encabezado.
-
 
