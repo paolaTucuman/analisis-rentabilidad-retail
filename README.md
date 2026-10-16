@@ -38,7 +38,7 @@ El script lee `data/RetailNuevo3.csv`, imprime los agregados y regenera `images/
 
 ## Datos
 
-El CSV fue entregado por el docente del módulo de Estadística Aplicada del diplomado de la UPB. Contiene 2.000 registros, 3 categorías, 17 subcategorías y 47 estados. El análisis usa `Sales`, `Profit`, `Discount`, `Category` y `Sub-Category`. El periodo, la moneda y la procedencia original del conjunto no están documentados. [Diccionario de datos](data/README.md).
+El CSV fue facilitado por los docentes del diplomado de la UPB para el trabajo final de Estadística Aplicada. Contiene 2.000 registros, 3 categorías, 17 subcategorías y 47 estados. El análisis usa `Sales`, `Profit`, `Discount`, `Category` y `Sub-Category`. El periodo, la moneda y la procedencia original del conjunto no están documentados. [Diccionario de datos](data/README.md).
 
 ## Método
 
@@ -52,12 +52,8 @@ Sumé `Sales` y `Profit` por subcategoría y calculé el margen agregado como `s
 
 **Recomendación:** revisar descuentos y costos de las cuatro subcategorías deficitarias antes de cambiar promociones. El archivo no permite atribuir las pérdidas al descuento ni afirmar un impacto comercial real.
 
-## Habilidades técnicas aplicadas
-
-- **Pandas:** cargué y validé el CSV, agrupé las ventas por subcategoría y separé los registros según el nivel de descuento.
-- **Análisis de rentabilidad:** calculé ventas, ganancia y margen agregado; identifiqué subcategorías con pérdida y distinguí una asociación descriptiva de una conclusión causal.
-- **Visualización:** representé la relación entre descuentos y ganancias y la ganancia neta por subcategoría.
-
 ## Mi contribución
 
 Resolví las preguntas de segmentación, visualización e inferencia de la consigna académica. Amplié el trabajo con análisis de márgenes por subcategoría y exploración de descuentos y ganancias, identificados como “ANÁLISIS EXTRA” en el [notebook](notebooks/trabajo_final_academico.ipynb).
+
+
